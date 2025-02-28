@@ -26,7 +26,10 @@ const Header = () => {
                 <li className='hover:text-cyan-200 cursor-pointer'>Project</li>
               </ul>
             <button className='text-white font-semibold hover:outline-cyan-200  text-[15px] bg-black px-4 py-2 rounded-full border-2 !border-cyan-200 '>
-              View CV
+            <a href="/mukeshKumar.pdf" target="_blank" rel="noopener noreferrer" >
+            View CV
+</a>
+             
             </button>
             <div className=''>
             <FaBars onClick={()=>setBar(!bar)} size={40} className='block text-white p-2 z-10   sm:hidden ' />
