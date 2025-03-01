@@ -1,29 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Route, Routes } from 'react-router-dom'
-import Header from './component/Header'
-import Main from './component/Main'
-import Project from './component/Project'
-import Contect from './component/Contect'
-
+import { useRef } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Header from './component/Header';
+import Main from './component/Main';
+import Project from './component/Project';
+import Contect from './component/Contect';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const projectRef = useRef(null);
+  const contactRef = useRef(null);
 
   return (
     <>
-    <Routes>
-      <Route path='/' element={<><Header/><Main/><Project/><Contect/></>}></Route>
-      <Route path='/project' element={<><Project/></>}></Route>
-      <Route path='/contect' element={<><Contect/></>}></Route>
-    </Routes>
   
-      
+      <Header projectRef={projectRef} contactRef={contactRef} />
 
+      <Routes>
+        <Route 
+          path="/" 
+          element={
+            <>
+              <Main />
+              <div ref={projectRef}>
+                <Project />
+              </div>
+              <div ref={contactRef}>
+                <Contect />
+              </div>
+            </>
+          } 
+        />
+
+    
+        <Route path="/project" element={<Project />} />
+        <Route path="/contect" element={<Contect />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

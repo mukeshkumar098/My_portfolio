@@ -3,9 +3,10 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { FaLongArrowAltDown } from "react-icons/fa";
-import { IoPerson } from "react-icons/io5";
+import { IoLogoInstagram, IoPerson } from "react-icons/io5";
 import { MdOutlineMailOutline, MdOutlineMessage } from "react-icons/md";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 
 const Contect = () => {
     const formRef = useRef();
@@ -46,6 +47,8 @@ const Contect = () => {
     };
 
     return (
+        <>
+          <div className="bg-black pb-9 ">
         <section className="flex justify-center items-center w-full">
             <div className="bg-black w-full pb-1">
                 <div className="text-white flex justify-center">
@@ -115,7 +118,35 @@ const Contect = () => {
             </div>
     
             <ToastContainer />
+            
         </section>
+        <div className='flex justify-center'>
+        <div className='flex flex-col text-white justify-center items-center '>
+            <div>
+                <div className='flex text-cyan-200 items-center gap-1'>
+                <IoPerson size={18}/>
+                    <h1 className='text-cyan-200'>Mukesh Kumar @ 2024</h1>
+                </div>
+                <div className='flex text-cyan-200 gap-1 items-center justify-center'>
+                <MdOutlineMailOutline size={18}/>
+                    <h1 className='text-cyan-200 text-sm'>mukeshkemar567@gmail.com</h1>
+                </div>
+                <div className='flex justify-center text-cyan-200 text-[15px]'>
+                    <p>+91-9837819163</p>
+                </div>
+            </div>
+            <img className='w-16 ' src="logos.png" alt="" />
+            <div className='flex gap-4 pt-1'>   <ul className='flex  gap-4 text-white'>
+
+                <li><a href="https://www.instagram.com/_darksoullll_/" target='_black'>  <IoLogoInstagram size={25} className='shadow-lg hover:text-cyan-400  bg-transparent text-cyan-200  ' /></a></li>
+                <li><a href="">  <FaTwitter size={25} className='shadow-lg hover:text-cyan-400  bg-transparent text-cyan-200 ' /></a></li>
+                <li><a href="https://www.linkedin.com/in/mukesh-kumar-71bb01265/" target='_black'> <FaLinkedinIn size={25} className='shadow-lg hover:text-cyan-400  bg-transparent text-cyan-200  ' /></a></li>
+                <li><a href="https://github.com/mukeshkumar098" target='_black'><FaGithub size={25} className='shadow-lg hover:text-cyan-400  bg-transparent text-cyan-200 ' /></a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    </div></>
     );
 };
 

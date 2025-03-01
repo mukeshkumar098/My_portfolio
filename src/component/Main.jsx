@@ -167,6 +167,9 @@ const Main = () => {
                                         <li className='px-3 py-2 rounded-lg border-2 border-cyan-200 '>Java</li>
                                         <li className='px-3 py-2 rounded-lg border-2 border-cyan-200 '>Bootstrap</li>
                                         <li className='px-3 py-2 rounded-lg border-2 border-cyan-200 '>Tailwind CSS</li>
+                                        <li className='px-3 py-2 rounded-lg border-2 border-cyan-200 '>Node js</li>
+                                        <li className='px-3 py-2 rounded-lg border-2 border-cyan-200 '>Express js</li>
+                                        <li className='px-3 py-2 rounded-lg border-2 border-cyan-200 '>Mongo DB</li>
 
                                     </ul>
                                 </div>
