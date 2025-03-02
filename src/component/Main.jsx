@@ -107,14 +107,14 @@ const Main = () => {
                                     </dialog>
                                 </div>
                             </div>
-                            <div>
+                            {/* <div>
                                 <div>
                                     <img src="/logos.png" alt="" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='hidden lg:flex lg:justify-between justify-center  items-center lg:gap-24'>
                                 <div className=' relative mt-16 w-72 h-72 lg:w-96 lg:h-96 rounded-[50%] shadow-2xl z-0 bg-[url("logos.png")] -overflow-y-hidden '>
-
+                                <img src="/logos.png" alt="" />
                                 </div>
                                 <div className=''>
                                     <ul className=' hidden lg:flex lg:flex-col lg:gap-5 lg:pr-4 lg:text-white'>
