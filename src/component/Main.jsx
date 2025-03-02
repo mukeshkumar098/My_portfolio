@@ -109,7 +109,7 @@ const Main = () => {
                             </div>
                             <div>
                                 <div>
-
+                                    <img src="/logos.png" alt="" />
                                 </div>
                             </div>
                             <div className='hidden lg:flex lg:justify-between justify-center  items-center lg:gap-24'>
@@ -207,7 +207,7 @@ const Main = () => {
                 </div>
 
             </div>
-            <hr className='text-cyan-200 ms:mx-8' />
+            <hr className='text-gray-500 bg-slate-500 ms:mx-8 o' />
            
 
         </>
