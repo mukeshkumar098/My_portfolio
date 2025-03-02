@@ -133,9 +133,10 @@ const Project = () => {
                                             <div className=' flex flex-wrap '>
                                                 <a href="">
                                                     <div className=' relative group ease-in-out duration-100'>
-                                                        <span className='flex group-hover:-top-12 ease-jump   duration-200 bg-[#fc815c] px-5 absolute top-5 left-1/2 -translate-x-1/2 py-2 rounded w-max items-center after:content-[""] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 '>
+                                                        {/* <span className='flex group-hover:-top-12 ease-jump   duration-200 bg-[#fc815c] px-5 absolute top-5 left-1/2 -translate-x-1/2 py-2 rounded w-max items-center after:content-[""] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 '>
                                                             walmart
-                                                        </span><div className='relative'>
+                                                        </span> */}
+                                                        <div className='relative'>
                                                         <img src="walmart.webp" className='rounded-lg relative w-72 z-10 shadow-2xl  drop-shadow-[0_10px_10px_rgba(59,130,246,0.7)]' alt="" />
                                                         
                                                        
@@ -162,9 +163,10 @@ const Project = () => {
                                             <a href="https://chat-app-ai-mk.onrender.com">
                                                 <div className=' relative group  ease-in-out duration-100'>
 
-                                                    <span className='flex group-hover:-top-12 ease-jump   duration-200 bg-blue-700 px-5 absolute top-5 left-1/2 -translate-x-1/2 py-2 rounded w-max items-center after:content-[""] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 '>
+                                                    {/* <span className='flex group-hover:-top-12 ease-jump   duration-200 bg-blue-700 px-5 absolute top-5 left-1/2 -translate-x-1/2 py-2 rounded w-max items-center after:content-[""] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 '>
                                                         ChatMk
-                                                    </span><div className='relative w-72'>
+                                                    </span> */}
+                                                    <div className='relative w-72'>
                                                     <img src="walmart.webp" className='rounded-lg relative w-72 z-10  drop-shadow-[0_10px_10px_rgba(59,130,246,0.7)]' alt="" />
                                                     <img className='absolute w-[238px] h-[148px] top-[20px] z-20 left-7 ' src="chatmk.png" alt="" />
                                                     </div>
@@ -193,9 +195,10 @@ const Project = () => {
                                             <div className=' flex flex-wrap '>
                                             <a href="https://my-portfoliomukesh.netlify.app/">
                                                     <div className=' relative group ease-in-out duration-100'>
-                                                        <span className='flex group-hover:-top-12 ease-jump   duration-200 bg-[#fc815c] px-5 absolute top-5 left-1/2 -translate-x-1/2 py-2 rounded w-max items-center after:content-[""] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 '>
+                                                        {/* <span className='flex group-hover:-top-12 ease-jump   duration-200 bg-[#fc815c] px-5 absolute top-5 left-1/2 -translate-x-1/2 py-2 rounded w-max items-center after:content-[""] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 '>
                                                             zouk
-                                                        </span><div className='relative'>
+                                                        </span> */}
+                                                        <div className='relative'>
                                                         <img src="walmart.webp" className='rounded-lg relative w-72 z-10 shadow-2xl  drop-shadow-[0_10px_10px_rgba(59,130,246,0.7)]' alt="" />
                                                         
                                                        
